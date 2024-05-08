@@ -21,7 +21,41 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+     
+
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pic}
+              isBlog={false}
+              title="Travel Path"
+              description="Implemented a djakstra algrorithm to find the shortest path among different paths"
+               ghLink="https://github.com/Shobhit51/Travel-Path"
+            />
+          </Col>
+
+        
+
+             <Col md={4} className="project-card">
+             <ProjectCard
+              imgPath={pic}
+              isBlog={false}
+              title="Cine-matics "
+               ghLink="https://github.com/Shobhit51/Cine_matic"
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pic}
+              isBlog={false}
+              title="URL Shortner "
+               ghLink="https://github.com/Shobhit51/Url-"
+               description="An URL shortener is a website that reduces the length of your URL .
+                The idea is to minimize the web page address into something that's easier to remember and track. "
+             />
+          </Col>
+
+           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pic}
               isBlog={false}
@@ -53,36 +87,6 @@ function Projects() {
               " 
               ghLink="https://github.com/Shobhit51/DAILY-PLANNER"         
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pic}
-              isBlog={false}
-              title="Travel Plan"
-              description="Implemented a djakstra algrorithm to find the shortest path among different paths"
-               ghLink="https://github.com/Shobhit51/Travel-Path"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pic}
-              isBlog={false}
-              title="URL Shortner "
-               ghLink="https://github.com/Shobhit51/Url-"
-               description="An URL shortener is a website that reduces the length of your URL .
-                The idea is to minimize the web page address into something that's easier to remember and track. "
-             />
-          </Col>
-
-             <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pic}
-              isBlog={false}
-              title="New Projects "
-               ghLink="https://github.com/Shobhit51/"
-              />
           </Col>
         </Row>
       </Container>
